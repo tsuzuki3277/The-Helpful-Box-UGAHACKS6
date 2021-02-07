@@ -1,12 +1,3 @@
-"""
-Google Vision API Tutorial with a Raspberry Pi and Raspberry Pi Camera.  See more about it here:  htt$
-
-Use Google Cloud Vision on the Raspberry Pi to take a picture with the Raspberry Pi Camera and classi$
-
-This script uses the Vision API's label detection capabilities to find a label
-based on an image's content.
-
-"""
 #import image related items
 import picamera
 import os
