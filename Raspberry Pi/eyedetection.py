@@ -76,6 +76,7 @@ def main():
 
         draw_face_rectangle(image_name, rectangle)
 
+#When eyes were not detected
     if a == 0:
           filenamecaptured = "image.jpg"
           imgPIL = Image.open(filenamecaptured)
@@ -85,6 +86,7 @@ def main():
           sleep(1)
           GPIO.output(24,0)
           #GPIO.cleanup()
+#When eyes were not detected
     else:
       #GPIO.cleanup()
       #show image
